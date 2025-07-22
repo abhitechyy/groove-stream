@@ -1,0 +1,41 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 14px;
+}
+.rounded{
+    border-radius: 20px;
+}
+/* Dark Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;               /* Vertical scrollbar width */
+  height: 10px;              /* Horizontal scrollbar height */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;       /* Dark background for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;    /* Dark gray thumb */
+  border-radius: 6px;
+  border: 2px solid #1e1e1e; /* Space around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;    /* Slightly lighter on hover */
+}
