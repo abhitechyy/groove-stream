@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+        <div class="left ">
+            <div class="close">
+                <img width="30" class="invert" src="images/close.svg" alt="">
+            </div>
+            <div class="home bg-grey round m-1 p-1">
+                <div style="font-size: 30px;" class="logo flex item-center"><img width="40px" class="invert"
+                        src="images/logo.svg" alt="spotify" srcset="">spotify
+                </div>
+                <ul>
+                    <li><img class="invert" src="images/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="images/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey  m-1 p-1">
+                <div class="head">
+                    <span class="invert">
+                        <img src="images/playlist.svg" style="width: 20px;" alt="">
+                    </span>
+                    <span>
+                        your library
+                    </span>
+                </div>
+                <div class="songlist">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div class="legal">
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety & Privacy Center</span>
+                        </a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                    <div class="cook">
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span style="color: whitesmoke;">Cookies</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey ">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgercontainer">
+                        <img width="40" class="invert hamburger" src="images/hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylists">
+                <h2>spotify playlists</h2>
+                <div class="cardcontainer">
+                    <div data-folder="wavy" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/wavy.jpg" alt="">
+                        <h3>Wavy</h3>
+                        <p>Karan aujla</p>
+                    </div>
+                    <div data-folder="soni" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/sonisoni.jpg" alt="sonisoni">
+                        <h3>Soni Soni</h3>
+                        <p>Darshan Raval</p>
+                    </div>
+                    <div data-folder="tu" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/tuhai.jpg" alt="tu hai toh">
+                        <h3>Tu hain toh main</h3>
+                        <p>Arijit Singh</p>
+                    </div>
+                    <div data-folder="maahi" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/omaahi.jpg" alt="O Maahi">
+                        <h3>O Maahi</h3>
+                        <p>Arijit Singh</p>
+                    </div>
+                    <div data-folder="sahiba" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/sahiba.jpg" alt="Sahiba">
+                        <h3>Sahiba</h3>
+                        <p>Stebin Ben | Jasleen Royal</p>
+                    </div>
+                    <div data-folder="saiyaara" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/saiyaara.jpg" alt="Saiyaara">
+                        <h3>Saiyaara</h3>
+                        <p>Jubin Nautiyal</p>
+                    </div>
+                    <div data-folder="aur" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/aur.jpg" alt="Aur Mohabbat Kitni Karoon">
+                        <h3>Aur Mohabbat Kitni Karoon</h3>
+                        <p>Arijit Singh </p>
+                    </div>
+                    <div data-folder="bhul" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/bhool.jpg" alt="Bhoolbhaiya 3">
+                        <h3>Bhoolbhaiya 3 - Title Track</h3>
+                        <p>Neeraj Shridhar</p>
+                    </div>
+                    <div data-folder="stree" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/stree.jpg" alt="Aayi Nai">
+                        <h3>Aayi Nai</h3>
+                        <p>Pawan Singh</p>
+                    </div>
+                    <div data-folder="hind" class="card border1">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44">
+                                <!-- Green Circle Background -->
+                                <circle cx="12" cy="12" r="12" fill="green" />
+
+                                <!-- Smaller Black Play Button (scaled down and centered using transform) -->
+                                <g transform="scale(0.7) translate(5, 5)">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="photos/hind.jpg" alt="Hind Ke Sitara">
+                        <h3>Hind Ke Sitara</h3>
+                        <p>Manoj Tiwari</p>
+                    </div>
+                    <div class="playbar">
+                        <div class="seekbar">
+                            <div class="circle">
+
+                            </div>
+                        </div>
+                        <div class="abovebar">
+                            <div class="songinfo"></div>
+                            <div class="songsbutton">
+                                <img width="25" id="previous" class="invert" src="images/prevsong.svg" alt="">
+                                <img width="25" id="play" class="invert" src="images/play.svg" alt="">
+                                <img width="25" id="next" class="invert" src="images/nextsong.svg" alt="">
+                            </div>
+                            <div class="timevol">
+                                <div class="playtime">
+                                </div>
+                                <div class="volume">
+                                    <img width="30" class="invert" src="images/volume.svg" alt="">
+                                    <div class="range">
+                                        <!-- <input type="range" min="0" max="100" value="50" style="accent-color: #1db954; width: 150px;" name="volume"> -->
+
+                                        <input type="range" name="volume">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script src="js/script.js"></script>
+</body>
+
+</html>
