@@ -202,5 +202,5 @@ async function getsongs(folder) {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    getsongs("songs/ncs");
+    getsongs("songs/libraryplaylist");  // Load the default playlist
 });
