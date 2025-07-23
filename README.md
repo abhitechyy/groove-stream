@@ -6,7 +6,7 @@ Musify is a Spotify-inspired web music player built with **HTML**, **CSS**, and 
 
 ## 📸 Preview
 
-![Musify Preview](images/output.jpg)
+![Musify Preview](images/output.png)
 
 
 ---
