@@ -75,4 +75,4 @@ This project is licensed under the MIT License.
 ## 📬 Contact
 
 Created by [Abhishek Mishra](mailto:abhishekmishra65836583@gmail.com)  
-[LinkedIn](https://www.linkedin.com/in/abhishekmishra6583/)
+[LinkedIn](https://www.linkedin.com/in/iamabhishekm-dev)
